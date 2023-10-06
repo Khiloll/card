@@ -37,6 +37,10 @@ html,body {
     margin-top: 150px !important;
     margin: 0 auto;
   }
+
+  .card a {
+    z-index: 2 !important;
+  }
   
   .card:hover {
     background: #f2f1ef;
@@ -53,7 +57,7 @@ html,body {
   
   .background {
     position: absolute;
-    z-index: 1 !important;
+    z-index: 0 !important;
     inset: 0;
     filter: blur(50px);
     background: radial-gradient(circle at 100% 107%, #ffffff00 0%, #ffffff00 0%, #ffffff00 0%, #ffffff00 0%);
@@ -67,7 +71,7 @@ html,body {
   
   .logo {
     position: absolute;
-    z-index: 0 !important;
+    
     padding-top: 80px;
     font-size: 14px;
     color: #000;
